@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Baitap">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="492dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="87dp"
+                android:layout_height="76dp"
+                app:srcCompat="@drawable/ic_lich" />
+
+            <Button
+                android:id="@+id/btn_Lichtap"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="LỊCH TẬP" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="87dp"
+                android:layout_height="76dp"
+                app:srcCompat="@drawable/hand" />
+
+            <Button
+                android:id="@+id/btn_Tay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CÁC BÀI TẬP TAY" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="87dp"
+                android:layout_height="76dp"
+                app:srcCompat="@drawable/vai" />
+
+            <Button
+                android:id="@+id/btn_Vai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CÁC BÀI TẬP VAI" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/abs" />
+
+            <Button
+                android:id="@+id/btn_Bung"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CÁC BÀI TẬP BỤNG" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nguc" />
+
+            <Button
+                android:id="@+id/btn_Nguc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CÁC BÀI TẬP NGỰC" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="87dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/leg" />
+
+            <Button
+                android:id="@+id/btn_Chan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CÁC BÀI TẬP CHÂN" />
+        </TableRow>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

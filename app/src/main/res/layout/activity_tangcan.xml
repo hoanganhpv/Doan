@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tangcan">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 1"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="32dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="310dp"
+                    android:layout_height="match_parent"
+                    android:text="1 tô phở bò, 1 quả trứng gà và 1 ly sữa." />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="43dp" >
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, 1 bát canh bí đỏ thịt hầm, 100g thịt bò xào cần, 1 quả chuối." />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1:"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 đĩa trái cây." />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa Tối:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, đậu phụ nhồi thịt, 1 bát canh mồng tơi, nước ép hoa quả."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa Phụ 2:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 cốc sinh tố."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 2"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="Bánh cuốn thịt, 1 ly chanh mật ong."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, 100g thịt kho tàu, 1 bát canh rau củ, 1 quả ổi."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 cốc nước ép trái cây."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, cá sốt cà, 1 bát canh mồng tơi nấu cua, một hộp sữa chua."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 2:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 bát súp gà."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 3"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" 1 tô bún cá, 1 ly sữa và 2 trái chuối."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, 1 bát canh củ hầm xương, cá thu chiên, 1 đĩa trái cây."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 ly ngũ cốc dinh dưỡng."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, cá lóc kho tộ, 1 bát canh rau dền nấu tôm, đậu que xào."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 2:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 ly chè đậu xanh."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 4"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 đĩa cơm tấm sườn, 1 ly sữa tươi."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, 1 bát canh chua thịt băm, 100g thịt kho tàu với trứng, 1 quả táo."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" 1 ly nước cam ép."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="  2 bát cơm, 100g thịt bò xào, 1 bát canh bí xanh với xương gà, 1 hộp sữa chua."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 2:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 ly chè đỗ đen."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 5"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 bánh mì kẹp trứng, 1 ly sữa, 2 quả chuối."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa:"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, canh thịt nạc nấu rau ngót, cá kho, 1 quả táo."
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" Mì xào thịt bò, rau cải luộc, 1 ly ngũ cốc."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 cốc sinh tố nho."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 6"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" 1 phần bò bít tết, 1 ly sữa."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" 2 bát cơm, 1 bát canh bắp cải, cá diêu hồng chiên, 2 quả chuối."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 cái bánh bông lan."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text=" 2 bát cơm, đuôi bò hầm tiêu, 1 bát canh chua, 1 đĩa dâu tây."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 2"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 ly chè thập cẩm."
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Ngày 7"
+                android:textColor="#E73218"
+                android:textSize="24sp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa sáng"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 tô bún riêu, 1 ly sữa tươi, 2 quả chuối."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa trưa"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, 100g thịt heo luộc, nấm xào thịt, canh rau ngót, 1 hộp sữa chua."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 bắp ngô luộc."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa tối"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="2 bát cơm, mực chiên, canh cá thác lác với rau cải, 100g nho ."
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="33dp">
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="match_parent"
+                    android:text="Bữa phụ 2"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="308dp"
+                    android:layout_height="match_parent"
+                    android:text="1 đĩa trái cây sấy khô."
+                    />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
