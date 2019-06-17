@@ -27,7 +27,7 @@ public class Baitap extends AppCompatActivity {
         vai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnbaitap =new Intent(Baitap.this, LichTap.class);
+                Intent btnbaitap =new Intent(Baitap.this, BT_Vai.class);
                 startActivity(btnbaitap);
             }
         });
@@ -35,7 +35,7 @@ public class Baitap extends AppCompatActivity {
         tay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnbaitap =new Intent(Baitap.this, LichTap.class);
+                Intent btnbaitap =new Intent(Baitap.this, BT_Tay.class);
                 startActivity(btnbaitap);
             }
         });
@@ -43,7 +43,7 @@ public class Baitap extends AppCompatActivity {
         bung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnbaitap =new Intent(Baitap.this, LichTap.class);
+                Intent btnbaitap =new Intent(Baitap.this, BT_Bung.class);
                 startActivity(btnbaitap);
             }
         });
@@ -51,7 +51,7 @@ public class Baitap extends AppCompatActivity {
         nguc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnbaitap =new Intent(Baitap.this, LichTap.class);
+                Intent btnbaitap =new Intent(Baitap.this, BT_Nguc2.class);
                 startActivity(btnbaitap);
             }
         });
@@ -59,7 +59,7 @@ public class Baitap extends AppCompatActivity {
         chan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent btnbaitap =new Intent(Baitap.this, LichTap.class);
+                Intent btnbaitap =new Intent(Baitap.this, BT_Chan.class);
                 startActivity(btnbaitap);
             }
         });
